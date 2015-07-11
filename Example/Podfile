@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AFMantleSerialization_Example', :exclusive => true do
+  pod "AFMantleSerialization", :path => "../"
+end
+
+target 'AFMantleSerialization_Tests', :exclusive => true do
+  pod "AFMantleSerialization", :path => "../"
+
+  
+end
